@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: auto;
+  height: 100%;
+}
+
+.up-menu {
+  border-bottom: 1px solid rgb(220, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 44px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  background-color: white;
+}
+
+.camera {
+  font-size: 24px;
+}
+
+.logo {
+  display: inline;
+  font-family: 'Satisfy', cursive;
+  font-size: 26px;
+  text-align: center;
+}
+
+.chat {
+  font-size: 24px;
+}
+
+.stories {
+  display: flex;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  width: 100%;
+  height: 84px;
+  padding: 10px 0;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+}
+
+.pictures-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.your-picture {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  border: 2px solid rgb(220, 220, 220);
+  border-radius: 50%;
+}
+
+.your-name {
+  font-style: italic;
+  font-weight: normal;
+  color: black;
+}
+
+.pictures {
+  display: flex;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid #d17594;
+}
+
+.names-container {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  font-style: italic;
+  text-align: center;
+  color: #8E8E8E8E;
+}
+
+.names {
+  max-width: 64px;
+}
+
+.picture-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 10px 16px 16px;
+  height: 60px;
+  align-items: center;
+}
+
+.section-left {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  border-radius: 50%;
+  border: 2px solid #d17594;
+}
+
+.profile-name {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: lowercase;
+  margin-left: 12px;
+}
+
+.more {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.main-photo {
+  display: flex;
+  width: 414px;
+  height: 414px;
+}
+
+.rate {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+}
+
+.rate-left {
+  display: flex;
+  align-items: center;
+}
+
+.like {
+  font-size: 24px;
+  padding: 8px 8px 8px 0px;
+}
+
+.comment {
+  font-size: 24px;
+  padding: 8px;
+}
+
+.send {
+  font-size: 24px;
+  padding: 8px;
+}
+
+.save {
+  font-size: 24px;
+  padding: 8px 0px 8px 8px;
+}
+
+.liked-by {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.liked-picture {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  border-radius: 50%;
+}
+
+.liked-text {
+  margin-left: 5px;
+  color: #262626;
+  font-size: 14px;
+}
+
+.comments {
+  padding: 0 16px;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.see-all {
+  color: #8e8e8e;
+  padding-top: 10px;
+  display: block;
+}
+
+.my-profile {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 44px;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid rgb(220, 220, 220);
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: auto;
+  bottom: 0;
+  font-size: 24px;
+}
